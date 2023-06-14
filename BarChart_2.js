@@ -14,14 +14,14 @@ function handleQueryResponse___(response) {
 
   var options = {
     width: "100%",
-    title: 'Android Games Sales',
+    title: 'Android Category Sales',
     // chartArea: {width: '50%'},
     hAxis: {
       title: 'Sales in millions of units',
       minValue: 0
     },
     vAxis: {
-      title: 'Game Title'
+      title: 'Category Name'
     }
   };
 
