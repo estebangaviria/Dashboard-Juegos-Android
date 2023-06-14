@@ -18,7 +18,7 @@ function handleQueryResponseHistogram_(response) {
 
   var options = {
     width: "100%",
-    title: "Distribución de calificaciones de usuarios para juegos de cartas",
+    title: "Distribución de calificaciones de Criticos para juegos de cartas",
     legend: { position: "none" },
     hAxis: {
       title: "Calificación del critico",
