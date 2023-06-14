@@ -35,4 +35,4 @@ Grafico 4: Cual es la participación de las 3 regiones US, EU y JP en el total d
 
 Grafico 5: Como se distrubuyen las calificacioones de los usuarios en la categoria de juegos de cartas?
 
-Grafico 5: Como se distrubuyen las calificacioones de los criticos en la categoria de juegos de cartas?
+Grafico 6: Como se distrubuyen las calificacioones de los criticos en la categoria de juegos de cartas?
