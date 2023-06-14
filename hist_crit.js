@@ -21,10 +21,10 @@ function handleQueryResponseHistogram_(response) {
     title: "Distribución de calificaciones de usuarios para juegos de cartas",
     legend: { position: "none" },
     hAxis: {
-      title: "Calificación del usuario",
+      title: "Calificación del critico",
     },
     vAxis: {
-      title: "Cantidad de juegos",
+      title: "Frecuencia",
     },
     histogram: { bucketSize: 1 },
   };

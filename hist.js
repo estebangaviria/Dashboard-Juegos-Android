@@ -24,7 +24,7 @@ function handleQueryResponseHistogram(response) {
       title: "Calificación del usuario",
     },
     vAxis: {
-      title: "Cantidad de juegos",
+      title: "Frecuencia",
     },
     histogram: { bucketSize: 1 },
   };
