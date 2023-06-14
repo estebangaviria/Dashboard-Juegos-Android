@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gráficos Bootstrap</title>
+    <!-- Bootstrap Scripts -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+
+    <!-- Script JS for Google charts -->
+    <script src="https://www.gstatic.com/charts/loader.js"></script>
+</head>
+
+<body>
+    <h1>Dashboard Juegos Android</h1>
+    <h5>Esteban Gaviria - Luisa Giraldo</h5>
+    <div class="container-fluid mt-5">
+        <div class="row">
+            <div class="col-lg-4 mb-4">
+                <div class="h-100 p-3 border bg-light chart-container" id="chart_div" style="min-height: 400px;">
+                    <!-- Initialize BarChart.js Here -->
+                </div>
+            </div>
+            <div class="col-lg-4 mb-4">
+                <div class="h-100 p-3 border bg-light chart-container" id="chart_div_" style="min-height: 400px;">
+                    <!-- Initialize BubbleChart.js Here -->
+                </div>
+            </div>
+            <div class="col-lg-4 mb-4">
+                <div class="h-100 p-3 border bg-light chart-container" id="noAura" style="min-height: 400px;">
+                    <!-- Initialize BarChart_2.js Here -->
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 mb-4">
+                <div class="h-100 p-3 border bg-light chart-container" id="piechart_3d" style="min-height: 400px;">
+                    <!-- Initialize Donut.js Here -->
+                </div>
+            </div>
+            <div class="col-lg-4 mb-4">
+                <div class="h-100 p-3 border bg-light chart-container" id="histogram" style="min-height: 400px;">
+                    <!-- Initialize hist.js Here -->
+                </div>
+            </div>
+            <div class="col-lg-4 mb-4">
+                <div class="h-100 p-3 border bg-light chart-container" id="histogram_" style="min-height: 400px;">
+                    <!-- Initialize hist_crit.js Here -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="BarChart.js"></script>
+    <script src="BubbleChart.js"></script>
+    <script src="BarChart_2.js"></script>
+    <script src="Donut.js"></script>
+    <script src="hist.js"></script>
+    <script src="hist_crit.js"></script>
+</body>
+
+</html>
